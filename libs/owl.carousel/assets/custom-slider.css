@@ -1,0 +1,60 @@
+.owl-carousel .owl-item {
+    position: relative;
+}
+
+.owl-theme .owl-dots {
+    text-align: center;
+    margin: 35px 0 0;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot span {
+    border: 3px solid #ebebeb;
+    border-radius: 30px;
+    display: block;
+    height: 17px;
+    margin: 0 14px;
+    width: 17px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #9cc134;
+    border-color: #9cc134;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    background: #ebebeb;
+    color: #ffffff;
+    width: 50px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] .fa{
+    font-size: 40px;;
+    text-align: center;
+    padding: 5px 0;
+    line-height: 40px;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    left: -83px;
+}
+
+.owl-theme .owl-nav .owl-prev .fa {
+    margin-left: -3px;
+}
+
+.owl-theme .owl-nav .owl-next {
+    right: -83px;
+}
+
+.owl-theme .owl-nav .owl-next .fa {
+    margin-right: -3px;
+}

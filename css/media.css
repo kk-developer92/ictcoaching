@@ -1,0 +1,397 @@
+/*==========  Container width  ==========*/
+@media (min-width: 768px) {
+	.container {
+		width: 750px
+	}
+
+	.container-fluid {
+		padding: 0 3.125em;
+	}
+
+	.reklam_blocks .image,
+	.reklam_blocks .text {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+	.row-eq-height {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display:         flex;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 970px
+	}
+
+	.navnar-top .navbar-nav {
+		text-align: center;
+	}
+	.navnar-top .navbar-nav li {
+		display: inline-block;
+		float: none;
+	}
+
+	.slider1 .owl-item {
+		padding: 40px 0;
+	}
+
+	.slider1 .owl-dots {
+		margin: 9px 0 0;
+	}
+
+	.slider1 .owl-item img{
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		display: block;
+		width: 100%;
+		opacity: .50;
+	}
+	.slider1 .owl-item.center img {
+		-webkit-transform: scale(1.3);
+		-moz-transform: scale(1.3);
+		-ms-transform: scale(1.3);
+		-o-transform: scale(1.3);
+		transform: scale(1.3);
+		-webkit-filter: none;
+		filter: none;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+		opacity: 1;
+	}
+
+	.copyright {
+		margin-left: 0;
+		width: auto;
+		padding-left: 0;
+		float: none;
+	}
+
+	.req {
+		padding-left: 0;
+		width: auto;
+		margin: 0;
+		float: none;
+	}
+
+	.pof_box img {
+		margin-top: -63px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.pof_box .text {
+		padding-right: 45px;
+		padding-left: 27px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px
+	}
+
+	.f-sub-nav:first-child {
+		padding-left: 50px;
+	}
+}
+.container-fluid { max-width: 1400px; margin: 0 auto }
+.container.maxw_1024{ max-width: 1054px; margin: 0 auto; padding-left: 15px; padding-right: 15px}
+.container.maxw_1000{ max-width: 1030px; margin: 0 auto; padding-left: 15px; padding-right: 15px}
+.container.maxw_830{ max-width: 830px; margin: 0 auto;  padding-left: 15px; padding-right: 15px}
+.container.maxw_660 { max-width: 690px; margin: 0 auto; padding-left: 15px; padding-right: 15px}
+.container.maxw_510 { max-width: 540px; margin: 0 auto; padding-left: 15px; padding-right: 15px}
+.container.maxw_360 { max-width: 390px; margin: 0 auto; padding-left: 15px; padding-right: 15px}
+.container.maxw_320 { max-width: 350px; margin: 0 auto; padding-left: 15px; padding-right: 15px}
+.maxw_1024{ max-width: 1054px; margin: 0 auto;}
+.maxw_1000{ max-width: 1030px; margin: 0 auto;}
+.maxw_830{ max-width: 860px; margin: 0 auto;}
+.maxw_660 { max-width: 660px; margin: 0 auto;}
+.maxw_510 { max-width: 540px; margin: 0 auto;}
+.maxw_360 { max-width: 390px; margin: 0 auto;}
+.maxw_320 { max-width: 350px; margin: 0 auto;}
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#sub-header {
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+
+	.navbar-brand > img {
+		max-height: 44px;
+	}
+
+	.navnar-top .nav,
+	.navnar-top .buttons {
+		padding-top: 12px;
+		padding-bottom: 13px;
+	}
+
+	#navbar {
+		float: right;
+	}
+
+	.navnar-top .navbar-nav li {
+		margin: 0;
+	}
+
+	.navnar-top .green_btn {
+		font-size: 0;
+		letter-spacing: -5px;
+		min-width: 0;
+		background: none;
+		border: none;
+	}
+
+	.navnar-top .green_btn i {
+		font-size: 23px;
+		letter-spacing: normal;
+		color: #9cc134;
+	}
+
+	.pof_box img {
+		max-width: 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.header-title {
+		font-size: 48px;
+	}
+
+	#sub-header p {
+		font-size: 24px;
+		max-width: 360px;
+		margin: 0 auto;
+	}
+
+	.slider1 {
+		max-width: 360px;
+	}
+
+	.slider2 .slide_inner {
+		padding-right: 0;
+	}
+
+	.slider2 .owl-item img {
+		margin-right: -51px;
+	}
+
+	.confirm-box .inline-middle.pl_50 {
+		padding-left: 15px;
+	}
+
+	.navbar-bottom .navbar-brand {
+		display: inline-block;
+		float: none;
+	}
+
+	.m_center {
+		text-align: center;
+	}
+	.md_left {
+		float: left !important;
+	}
+
+	.full_width {
+		width: 100%;
+	}
+
+	.copyright {
+		float: left!important;
+	}
+	
+	.req {
+		margin: 0 20px;
+	}
+
+	.req li {
+		float: left;
+	}
+
+	.reklam_blocks img {
+		width: 264px;
+		float: right;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.navbar-brand > img {
+		max-height: 38px;
+	}
+
+	.xs_pad_0 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.xs_pad_20 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#order_form {
+		width: 320px;
+		padding: 20px;
+	}
+	
+	.navnar-top .nav {
+		padding: 20px 0 0;
+	}
+
+	#navbar {
+		float: inherit;
+		text-align: center;
+	}
+
+	.navnar-top .buttons {
+		float: none;
+		padding: 10px 0 35px;
+	}
+
+	.header-title {
+		font-size: 30px;
+	}
+
+	#sub-header {
+		-webkit-background-size: auto 100%;
+		background-size: auto 100%;
+		padding: 4em 0;
+	}
+
+	#sub-header p {
+		font-size: 18px;
+	}
+
+	.title1,
+	h1 {
+		font-size: 24px;
+	}
+	.title1 small,
+	h1 small {
+		font-size: 16px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	.owl-slider {
+		margin: 0 auto;
+	}
+	.reklam_blocks .image {
+		text-align: center;
+	}
+	.reklam_blocks img {
+		max-width: 289px;
+		margin-top: -20px;
+		margin-left: -50px;
+		float: none;
+	}
+	.reklam_blocks .text {
+		padding-top: 10px;
+	}
+
+	.partners_en_client img {
+		width: auto!important;
+		margin: 0 auto;
+	}
+
+	.slider2 .slide_inner {
+		padding: 0 20px;
+	}
+
+	.slider2 .review_text {
+		font-size: 18px;
+	}
+
+	.confirm-box .inline-middle {
+		padding: 15px;
+		display: block;
+	}
+
+	.confirm-box img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.copyright {
+		margin-bottom: 10px;
+		float: none!important;
+	}
+
+	.req {
+		margin: 0;
+		overflow: hidden;
+		float: none!important;
+	}
+
+	.req li {
+		float: none;
+	}
+	
+	.full_width {
+		width: auto;
+	}
+
+	.xs_mt_-60 {
+		margin-top: -60px;
+	}
+
+	.xs-center {
+		text-align: center;
+	}
+
+	.pof_box img {
+		margin-bottom: -5.5em;
+	}
+
+	.advantages [class*="col-"] {
+		padding: 0 2em 1em;
+	}
+
+	.advantages figure {
+		text-align: center;
+		padding: 0 0 14px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.workshop_item .text {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.workshop_item .course_inf li {
+		font-size: 12px;
+	}
+}
